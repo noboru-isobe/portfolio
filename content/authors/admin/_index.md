@@ -1,6 +1,9 @@
 ---
 # Display name
-title: Noboru Isobe 磯部伸
+title: 磯部伸
+
+# Name pronunciation (optional)
+name_pronunciation: Nobor Isobe
 
 # Full name (for SEO)
 first_name: Noboru
@@ -23,22 +26,21 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: envelope
-    icon_pack: fas
-    url: '/#contact'
-  - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: ai
-    url: https://scholar.google.co.jp/citations?user=NMHeNesAAAAJ&
-  - icon: github
-    icon_pack: fab
-    url: https://github.com/noboru-isobe
-  - icon: linkedin
-    icon_pack: fab
-    url: https://www.linkedin.com/in/noboru-isobe-1995a0189/
-  - icon: orcid
-    icon_pack: ai
-    url: https://orcid.org/my-orcid?orcid=0000-0003-0512-4793
-  # Link to a PDF of your resume/CV.
+  - icon: at-symbol
+    url: 'mailto:your-email@example.com'
+    label: E-mail Me
+  - icon: brands/x
+    url: https://twitter.com/GetResearchDev
+  - icon: brands/instagram
+    url: https://www.instagram.com/
+  - icon: brands/github
+    url: https://github.com/gcushen
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/
+  - icon: academicons/orcid
+    url: https://orcid.org/
 
 interests:
   - Artificial Intelligence
@@ -46,36 +48,63 @@ interests:
   - Information Retrieval
 
 education:
-  - area: PhD in Mathematical Science
-    institution: University of Tokyo
-    date_start: 2022-41-01
-    date_end: 2025-03-31
-
-  - area: MEng in Informatics
-    institution: University of Tokyo
-    date_start: 2022-03-31
-    date_end: 2020-04-01
-  
-  - area: BSc in Engineering
-    institution: University of Tokyo
-    date_start: 2016-04-01
-    date_end: 2020-03-31
-
-
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: A
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: IBIS
+  - area: PhD Artificial Intelligence
+    institution: Stanford University
+    date_start: 2016-01-01
+    date_end: 2020-12-31
     summary: |
-      We developed Extended Flow Matching.
+      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+    button:
+      text: 'Read Thesis'
+      url: 'https://example.com'
+  - area: MEng Artificial Intelligence
+    institution: Massachusetts Institute of Technology
+    date_start: 2016-01-01
+    date_end: 2020-12-31
+    summary: |
+      GPA: 3.8/4.0
+
+      Courses included:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: BSc Artificial Intelligence
+    institution: Massachusetts Institute of Technology
+    date_start: 2016-01-01
+    date_end: 2020-12-31
+    summary: |
+      GPA: 3.4/4.0
+      
+      Courses included:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+work:
+  - position: Director of Cloud Infrastructure
+    company_name: GenCoin
+    company_url: ''
+    company_logo: ''
+    date_start: 2021-01-01
+    date_end: ''
+    summary: |2-
+      Responsibilities include:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Backend Software Engineer
+    company_name: X
+    company_url: ''
+    company_logo: ''
+    date_start: 2016-01-01
+    date_end: 2020-12-31
+    summary: |
+      Responsibilities include:
+      - Migrated infrastructure to a new data center
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+
 ---
 
 ## About Me
 
-Noboru Isobe is a Ph.D. student of mathematical science at [the Univesity of Tokyo Numerical Analysis group](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utms-nag/%E3%83%9B%E3%83%BC%E3%83%A0?authuser=0). His research interests include Deep Learning, Calculus of Variations, Partial Differential Equations and Numerical Analyis.
-{style="text-align: justify;"}
+Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
