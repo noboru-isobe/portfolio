@@ -19,3 +19,9 @@
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
     debug = true
+
+[[redirects]]
+  from = "https://noboru-isobe.netlify.app*"
+  to = "https://researchmap.jp/noboru-isobe"
+  status = 301
+  force = true
